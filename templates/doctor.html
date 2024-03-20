@@ -1,0 +1,125 @@
+{% load static %}
+<html>
+    <style>
+        .texttheme
+        {
+            width:250px;
+            border-radius:40px;
+            height:40px;
+
+        }
+        .tstheme{
+            font-size: 25px;
+            font-family: berlin sans fb;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .titletheme{
+            text-decoration: none;
+            font-size:30px;
+            font-family: berlin sans fb;
+        }
+        .tdtheme{
+            font-size: 25px;
+
+            text-transform: uppercase;
+            text-decoration:none;
+            color:black;
+             text-align: right;
+        }
+        .tdtheme:hover{
+        }
+        .tabtheme{
+
+         height: 40px;
+             text-align: center;
+        }
+        .backtheme{
+
+            background-size:100%;
+            background-image:url({% static 'myimages/abackground.jpg' %});
+            filter:blur()
+
+
+        }
+        .gif{
+            margin-top:-10px;
+           height: 600px;
+            width:100%;
+        }
+
+        .link{
+            text-decoration: none;
+            color:black;
+        }
+
+    main{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+    main .right-sec{
+     padding-right: 70px;
+    }
+
+    main .left-sec{
+     padding-left: 100px;
+    }
+
+    .left-sec h2{
+     font-size: 20px;
+     text-transform: capitalize;
+     font-weight: lighter;
+     color: #242424;
+     margin-top: 100px;
+    }
+
+    .left-sec h1{
+     font-size: 55px;
+     text-transform: capitalize;
+     font-weight: 700;
+     margin: 15px 0;
+    }
+
+    .left-sec p{
+     margin-bottom: 20px;
+    }
+
+    .left-sec button{
+     padding: 15px 45px;
+     text-align: center;
+     font-size: 14px;
+     color: #fff;
+     border: none;
+     background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+     border-radius: 10px;
+    }
+
+
+
+    </style>
+
+
+    <body class="backtheme">
+
+        <html>
+        <body width="100%">
+
+<br>
+           <table WIDTH="60%" class="theme"
+
+
+                  <div class="link" align ="right">
+                      <td class="tdtheme"><a href="/index" class="link">home</a></td>
+                      <td class="tdtheme"><a href="/aboutus" class="link">About us</a></td>
+                <td class="tdtheme"><a href="/docprofile" class="link">profile</a></td>
+                <td class="tdtheme"><a href="/docpass" class="link">password</a></td>
+                      <td class="tdtheme"><a href="" class="link">view patient</a></td>
+           </table>
+<br>
+
+
+            </div>
+               </body>
+              </html>
